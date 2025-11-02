@@ -1,4 +1,4 @@
-Hi! <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="90"/>I'm Damian
+Hi! <img src="<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Smilies/Alien%20Monster.png" width="90"/>I'm Damian
 =======================================================================================================================================
 
 Cybersecurity Specialist and FullStack Developer
