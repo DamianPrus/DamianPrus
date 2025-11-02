@@ -10,3 +10,5 @@ src="https://img.shields.io/github/followers/DamianPrus?logo=github&style=for-th
 
 ![Metrics classic](metrics.classic.svg)
 ![My contribution calendar](metrics.plugin.isocalendar.svg)
+
+<img src="https://github.com/Anmol-Baranwal/Cool-GIFs-For-GitHub/assets/74038190/0b335028-1d3d-4ee5-b5b3-a373d499be7e" width="90"/>
