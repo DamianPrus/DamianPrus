@@ -18,7 +18,7 @@ jobs:
 
           # Nazwa pliku, który zostanie wygenerowany
           # Możesz ją zmienić, jeśli chcesz
-          filename: metrics.plugin.isocalendar.fullyear.svg
+          filename: metrics.plugin.isocalendar.svg
 
           # Ustawienie base: "" wyłącza domyślne moduły
           # (pokazuje tylko te włączone poniżej)
@@ -29,4 +29,4 @@ jobs:
 
           # Ustawia czas trwania na cały rok
           # Możesz zmienić na "half-year" dla półrocznego widoku
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
