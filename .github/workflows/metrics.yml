@@ -8,11 +8,11 @@ on:
   workflow_dispatch:
 
 jobs:
-  # ZADANIE 1: Generowanie kalendarza izometrycznego
+  # ZADANIE 1: Kalendarz izometryczny (bez zmian)
   calendar_job:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Pozwolenie na zapisanie pliku .svg
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
@@ -22,15 +22,18 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-  # ZADANIE 2: Generowanie statystyk w stylu terminala
-  terminal_job:
+  # ZADANIE 2: Szablon "Classic" (zamiast Terminala)
+  classic_job:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Pozwolenie na zapisanie pliku .svg
+      contents: write
     steps:
       - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          filename: metrics.terminal.svg   # <-- Obrazek 2
-          template: terminal              # Użyj szablonu terminala
-          base: header, metadata          # Pokaż nagłówek i metadane (jak w przykładzie)
+          filename: metrics.classic.svg   # <-- Obrazek 2 (nowa nazwa)
+          # Szablon "classic" jest domyślny, więc nie trzeba go podawać
+          
+          # Zgodnie z przykładem, który podałeś:
+          base: header, repositories   # Pokaże nagłówek i listę repozytoriów
+          plugin_lines: yes          # Doda plugin liczący linie kodu
