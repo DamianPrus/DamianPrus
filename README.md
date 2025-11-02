@@ -1,9 +1,8 @@
 Hi! <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b52fb-983e-4ee8-8811-6f30cd9ea5d5.png" width="90"/>my name is Damian
 =======================================================================================================================================
 
-FullStack Developer
+Cybersecurity Specialist and FullStack Developer
 -------------
-* 🌍  I'm based in Poland
 
 <a href="https://www.github.com/Fivlas" target="_blank" rel="noreferrer"><img
 src="https://img.shields.io/github/followers/Fivlas?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
