@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![Mój kalendarz kontrybucji](metrics.plugin.isocalendar.fullyear.svg)
+![Mój kalendarz kontrybucji](metrics.plugin.isocalendar.svg)
 <!--
 **DamianPrus/DamianPrus** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
