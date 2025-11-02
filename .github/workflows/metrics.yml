@@ -1,32 +1,21 @@
 name: Isometric Commit Calendar
 
 on:
-  # Akcja uruchomi się automatycznie raz dziennie o północy
   schedule:
     - cron: '0 0 * * *'
-  # Pozwala też na ręczne uruchomienie z zakładki "Actions" w repozytorium
   workflow_dispatch:
 
 jobs:
   metrics:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      user: read
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token jest wymagany do pobrania Twoich danych
           token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Nazwa pliku, który zostanie wygenerowany
-          # Możesz ją zmienić, jeśli chcesz
           filename: metrics.plugin.isocalendar.svg
-
-          # Ustawienie base: "" wyłącza domyślne moduły
-          # (pokazuje tylko te włączone poniżej)
           base: ""
-
-          # Włącza plugin izometrycznego kalendarza
           plugin_isocalendar: yes
-
-          # Ustawia czas trwania na cały rok
-          # Możesz zmienić na "half-year" dla półrocznego widoku
           plugin_isocalendar_duration: half-year
