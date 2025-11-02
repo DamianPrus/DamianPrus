@@ -1,4 +1,4 @@
-name: Isometric Commit Calendar
+name: GitHub Metrics
 
 on:
   # Akcja uruchomi się automatycznie raz dziennie o północy
@@ -8,24 +8,29 @@ on:
   workflow_dispatch:
 
 jobs:
-  metrics:
+  # ZADANIE 1: Generowanie kalendarza izometrycznego
+  calendar_job:
     runs-on: ubuntu-latest
     permissions:
-      contents: write  # Pozwolenie na zapisanie pliku .svg w repozytorium
+      contents: write  # Pozwolenie na zapisanie pliku .svg
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          # Token jest wymagany do pobrania Twoich danych
           token: ${{ secrets.GITHUB_TOKEN }}
-
-          # Nazwa pliku, który zostanie wygenerowany
-          filename: metrics.plugin.isocalendar.svg
-
-          # Ustawienie base: "" wyłącza domyślne moduły
+          filename: metrics.plugin.isocalendar.svg  # <-- Obrazek 1
           base: ""
-
-          # Włącza plugin izometrycznego kalendarza
           plugin_isocalendar: yes
-
-          # Ustawia czas trwania na pół roku
           plugin_isocalendar_duration: half-year
+
+  # ZADANIE 2: Generowanie statystyk w stylu terminala
+  terminal_job:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Pozwolenie na zapisanie pliku .svg
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: metrics.terminal.svg   # <-- Obrazek 2
+          template: terminal              # Użyj szablonu terminala
+          base: header, metadata          # Pokaż nagłówek i metadane (jak w przykładzie)
