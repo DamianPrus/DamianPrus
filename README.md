@@ -1,4 +1,13 @@
-## Hi there 👋
+Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Filip
+=======================================================================================================================================
+
+FullStack Developer
+-------------
+* 🌍  I'm based in Poland
+
+<a href="https://www.github.com/Fivlas" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/Fivlas?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<img src="https://komarev.com/ghpvc/?username=fivlas&label=Profile%20views&color=0891b2&style=flat-square" alt="fivlas" />
 
 ![metrics classic](metrics.classic.svg)
 ![My contribution calendar](metrics.plugin.isocalendar.svg)
