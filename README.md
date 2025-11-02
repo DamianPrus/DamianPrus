@@ -4,9 +4,9 @@ Hi! <img src="https://user-images.githubusercontent.com/74038190/216122028-c05b5
 Cybersecurity Specialist and FullStack Developer
 -------------
 
-<a href="https://www.github.com/Fivlas" target="_blank" rel="noreferrer"><img
-src="https://img.shields.io/github/followers/Fivlas?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
-<img src="https://komarev.com/ghpvc/?username=fivlas&label=Profile%20views&color=0891b2&style=flat-square" alt="fivlas" />
+<a href="https://www.github.com/DamianPrus" target="_blank" rel="noreferrer"><img
+src="https://img.shields.io/github/followers/DamianPrus?logo=github&style=for-the-badge&color=0891b2&labelColor=1c1917" /></a>
+<img src="https://komarev.com/ghpvc/?username=DamianPrus&label=Profile%20views&color=0891b2&style=flat-square" alt="fivlas" />
 
 ![metrics classic](metrics.classic.svg)
 ![My contribution calendar](metrics.plugin.isocalendar.svg)
