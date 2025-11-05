@@ -1,4 +1,4 @@
-Hi!<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Hot%20Beverage.png" width="90"/>I'm Damian
+Hi!<img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Food/Hot%20Beverage.png" width="85"/>I'm Damian
 =======================================================================================================================================
 
 Cybersecurity Specialist and FullStack Developer
